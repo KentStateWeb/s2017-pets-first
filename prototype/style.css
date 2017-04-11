@@ -1,0 +1,17 @@
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: "Oxygen", Helvetica, Arial, sans-serif;
+  color: #334051;
+}
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+body h1, h2, h3 {
+  font-family: "Bree Serif", serif;
+  color: #F8A076;
+}
