@@ -6,7 +6,7 @@ body {
 }
 
 div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
+  /*border: 1px solid lightgray;*/
   padding: .5em;
   margin-bottom: 1em;
 }
@@ -14,4 +14,140 @@ div, section, main, aside, header, footer {
 body h1, h2, h3 {
   font-family: "Bree Serif", serif;
   color: #F8A076;
+}
+.hero-image {
+    height: 290px;
+    background-image: url(images/Vet1_bw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image__container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 100%;
+}
+
+.hero-image__text {
+    z-index: 100;
+    padding: 1em;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/* All this does is add a 50% black background on top of the image */
+.hero-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
+// Nav Button
+.nav-trigger {
+  padding: 1em;
+  cursor: pointer;
+  z-index: 200;
+    display: inline-block;
+    float: right;
+}
+
+.nav-trigger:after {
+  content:"Menu";
+}
+
+.nav-trigger.close:after {
+    content: "Close";
+}
+
+.nav-trigger.open {
+    background-color: #334051;
+    color: white;
+    transition: .3s all ease-in-out;
+}
+
+.nav-trigger.close {
+  color: white;
+    z-index: 1000;
+    position: relative;
+}
+
+/* Full page Navigation  */
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+    top: -100%;
+    height: 100vh;
+    transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+}
+
+nav.out {
+  pointer-events: none;
+}
+
+nav.in {
+  pointer-events: auto;
+}
+
+nav ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+    height: 100%;
+  cursor: pointer;
+    display: flex;
+    flex-flow: column;
+}
+
+nav ul {
+  height: 100%;
+  width: 100%;
+}
+
+nav li {
+  height: auto;
+    flex: 1;
+  position: relative;
+  background: rgba(0,0,0,.95);
+  color: white;
+  background-color: #334051;
+}
+
+nav.in {
+    top: 0;
+    opacity: 1;
+}
+
+nav.in li {
+  opacity: 1;
+}
+
+.nav-label {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  top: 50%;
+    margin-top: -8px;
+}
+
+footer {
+  background-color: #334051;
+  color: white;
+  text-align: center;
+  font-size: .65em;
+}
+
+footer img {
+  height: 50px;
 }

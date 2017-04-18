@@ -9,12 +9,39 @@
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Oxygen" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1>Pets First!</h1>
-      <h2>Veterinary Clinic</h2>
-    </header>
+
 <main>
-  <nav class="Page">
+  <section class="hero-image">
+    <div class="hero-image__container"> <!-- If anyone has a more semantic way to do this, let me know -->
+        <div class="hero-image__text">
+            <h1>Pets First!</h1>
+            <p>Veterinary Clinic</p>
+        </div>
+    </div>
+</section>
+<header>
+<a id="nav-trigger" class="nav-trigger open"></a>
+<nav id="nav" class="out">
+  <ul>
+    <li><span class="nav-label">Home</span></span></li>
+    <li><span class="nav-label">About</span></li>
+    <li><span class="nav-label">Services</span></li>
+<li><span class="nav-label">Boarding</span></li>
+    <li><span class="nav-label">Blog</span></li>
+    <li><span class="nav-label">Pet Portal</span></li>
+  </ul>
+</nav>
+</header>
+  <nav class="main">
+    <ul>
+      <li>About</li>
+      <li>Services</li>
+      <li>Boarding</li>
+      <li>Blog</li>
+      <li>Pet Portal</li>
+    </ul>
+  </nav>
+  <nav class="page">
     <ul>
       <li>Hours</li>
       <li>Contact</li>
@@ -25,16 +52,7 @@
       <li>Instagram</li>
     </ul>
   </nav>
-  <nav class="Main">
-    <ul>
-      <li>About</li>
-      <li>Services</li>
-      <li>Boarding</li>
-      <li>Blog</li>
-      <li>Pet Portal</li>
-    </ul>
-  </nav>
-  <section class="Hours">
+  <section class="hours">
     <table>
       <th>Hours</th>
       <tr>
@@ -68,13 +86,13 @@
   </table>
   <p><em>We will be closed on Memorial Day, Independence Day, Labor Day, Thanksgiving Day, Christmas Day and New Year’s Day.</em></p>
 </section>
-<section class="Contact">
+<section class="contact">
   <h2>Contact Us</h2>
   <p>330-672-3000<br />
     858 Portage Drive<br />
     Kent, OH 44240</p>
 </section>
-<section class="Social">
+<section class="social">
   <h2>Follow Us</h2>
   <ul>
     <li>Twitter</li>
@@ -82,7 +100,7 @@
     <li>Instagram</li>
   </ul>
 </section>
-<section class="Employment">
+<section class="employment">
 <h2>Employment</h2>
 <h3>IMMEDIATE OPENING – REGISTERED VETERINARY TECHNICIAN</h3>
 <p>Pets First is a 3-clinic, 7-doctor practice looking for a full-time <strong>Registered Technician.</strong> Our ideal candidate will be enthusiastic, hardworking, dependable, eager and able to travel to all three clinics. He or she must be team focused and must possess the following qualities and skills:</p>
@@ -101,7 +119,14 @@
   </ul>
 </section>
 </main>
+<footer>
+  <img src="images/petsfirstcircle.svg">
+  <p>330-672-3000<br />
+    858 Portage Drive<br />
+    Kent, OH 44240</p>
+</footer>
        <!-- The page content goes here -->
       <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+      <script src="script.js"></script>
   </body>
 </html>
