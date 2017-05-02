@@ -314,13 +314,26 @@ footer p {
   padding-bottom: 1em;
 }
 
+
+
+
+/*       MEDIA QUERY!       */
+
+
+
+
 @media screen and (min-width: 800px) {
+
   .hero-image {
     height: 290px;
   }
 
 nav.out {
   pointer-events: inherit;
+}
+
+header {
+  margin-top: 50px;
 }
 
   nav {
@@ -343,13 +356,16 @@ nav.out {
     width: 100%;
       height: 0%;
     cursor: pointer;
-      display: flex;
-      flex-flow: row;
-      list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
   }
 
   .nav-label {
-    margin-top: inherit;
+    margin-top: -60px;
+    background-color: #334051;
+    padding: 1.5em;
+    padding-left: 0;
   }
 
   nav ul {
@@ -366,7 +382,7 @@ nav.out {
   }
 
   nav a {
-    color: #334051;
+    color: white;
   }
 
   nav a:hover {
