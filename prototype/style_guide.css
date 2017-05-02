@@ -1,6 +1,6 @@
 .swatch {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
   margin: 1em 1.5em;
 }
@@ -22,6 +22,10 @@ body {
   margin: 0 auto;
   font-family: "Oxygen", Helvetica, Arial, sans-serif;
   color: #334051;
+}
+
+body img {
+  width: 50%;
 }
 
 h1 {
@@ -47,6 +51,23 @@ p {
     color: #6FC6BE;
     font-size: 1em;
   }
+
+aside {
+  	border-top: 2px solid lightgray;
+  	padding: 1px;
+  }
+
+@media screen and (min-width: 800px){
+  ul.swatches {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .swatches {
+    list-style-type: none;
+    display: flex;
+  }
+}
 
 .line-separator{
     height:1px;
