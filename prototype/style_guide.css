@@ -1,0 +1,55 @@
+.swatch {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin: 1em 1.5em;
+}
+
+.swatch-blue {
+  background-color: #334051;
+}
+
+.swatch-orange {
+  background-color: #F8A076;
+}
+
+.swatch-teal {
+  background-color: #6FC6BE;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Oxygen", Helvetica, Arial, sans-serif;
+  color: #334051;
+}
+
+h1 {
+    font-family: "Bree Serif", serif;
+    color: #F8A076;
+    font-size: 2em;
+  }
+
+h2 {
+    font-family: "Bree Serif", serif;
+    color: #F8A076;
+    font-size: 1.5em;
+  }
+
+h3 {
+    font-family: 'Oxygen', sans-serif;
+    color: #6FC6BE;
+    font-size: 1.25em;
+  }
+
+p {
+    font-family: 'Oxygen', sans-serif;
+    color: #6FC6BE;
+    font-size: 1em;
+  }
+
+.line-separator{
+    height:1px;
+    background:#717171;
+    border-bottom:1px solid #313030;
+}
