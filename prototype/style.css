@@ -139,6 +139,14 @@ nav li {
   background-color: #334051;
 }
 
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: #F8A076;
+}
+
 nav.in {
     top: 0;
     opacity: 1;
@@ -180,6 +188,14 @@ a:hover {
 
 .welcome strong {
   color: #334051;
+}
+
+.welcome a {
+  color: white
+}
+
+.welcome a:hover {
+  color: #F8A076;
 }
 
 .about strong {
