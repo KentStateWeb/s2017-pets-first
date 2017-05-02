@@ -211,6 +211,11 @@ strong {
     display: inline;
   }
 
+  ul.people {
+    list-style-type: none;
+    display: inline;
+  }
+
 
 .box {
   width: 40%;
@@ -287,6 +292,11 @@ strong {
   overflow: auto;
 }
 
+li img {
+  width: 90%;
+  max-width: 470px;
+}
+
 footer {
   background-color: #334051;
   color: white;
@@ -350,6 +360,14 @@ footer p {
     background-color: white;
   }
 
+  nav a {
+    color: #334051;
+  }
+
+  nav a:hover {
+    color: #F8A076;
+  }
+
   nav.in {
       top: 0;
       opacity: 100%;
@@ -369,6 +387,15 @@ footer p {
   }
 
   .contact {
+    list-style-type: none;
+    display: flex;
+  }
+
+  ul.people {
+    display: flex;
+  }
+
+  .people {
     list-style-type: none;
     display: flex;
   }
