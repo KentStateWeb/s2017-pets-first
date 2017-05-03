@@ -181,7 +181,10 @@ main {
 
 .contact {
     margin-top: -20px;
-    padding-right: 2em;
+}
+
+.contact1 {
+  margin-right: 2em;
 }
 
 a {
