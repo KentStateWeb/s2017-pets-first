@@ -285,7 +285,7 @@ strong {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 70%;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -293,7 +293,7 @@ strong {
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: "Oxygen", Arial, sans-serif;
 }
 .popup .close {
   position: absolute;
@@ -346,6 +346,10 @@ footer p {
 @media screen and (min-width: 600px) {
   ul {
     columns: 2;
+  }
+
+  .appointment ul {
+    columns: 1;
   }
 }
 
