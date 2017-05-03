@@ -232,6 +232,9 @@ strong {
     list-style-type: none;
     display: inline;
   }
+  ul {
+    list-style-type: none;
+  }
 
 
 .box {
@@ -335,10 +338,16 @@ footer p {
 
 
 
-/*       MEDIA QUERY!       */
+/*       MEDIA QUERIES!       */
 
 
 
+
+@media screen and (min-width: 600px) {
+  ul {
+    columns: 2;
+  }
+}
 
 @media screen and (min-width: 800px) {
 
@@ -457,6 +466,11 @@ footer p {
   main {
     margin: auto;
     margin-top: -50px;
+  }
+
+  ul {
+    columns: 4;
+    list-style-type: none;
   }
 
 }
