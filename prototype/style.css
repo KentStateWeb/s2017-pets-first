@@ -7,7 +7,7 @@ orange: #F8A076
 */
 
 body {
-  max-width: 1000px;
+
   margin: 0 auto;
   font-family: "Oxygen", Helvetica, Arial, sans-serif;
   color: #334051;
@@ -15,12 +15,20 @@ body {
 
 div, section, main, aside, header, footer {
   /*border: 1px solid lightgray;*/
-  margin-bottom: 1em;
+  /*margin-bottom: 1em;*/
 }
 
 body h1, h2, h3 {
   font-family: "Bree Serif", serif;
   color: #F8A076;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  color: #6fc6be;
 }
 
 header {
@@ -168,6 +176,12 @@ nav.in li {
 main {
   padding: 3em;
   margin-top: -3em;
+  max-width: 900px;
+}
+
+.contact {
+    margin-top: -20px;
+    padding-right: 2em;
 }
 
 a {
@@ -329,12 +343,12 @@ footer p {
     height: 290px;
   }
 
-nav.out {
-  pointer-events: inherit;
+  nav.out {
+    pointer-events: inherit;
 }
 
-header {
-  margin-top: 50px;
+  header {
+    margin-top: 50px;
 }
 
   nav {
@@ -411,6 +425,7 @@ header {
   .contact {
     list-style-type: none;
     display: flex;
+    padding: 0;
   }
 
   ul.people {
@@ -428,6 +443,17 @@ header {
 
   .popup{
     width: 70%;
+  }
+
+  .welcome {
+    font-size: 1.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  main {
+    margin: auto;
+    margin-top: -50px;
   }
 
 }
