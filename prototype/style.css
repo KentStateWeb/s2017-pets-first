@@ -477,4 +477,13 @@ footer p {
     list-style-type: none;
   }
 
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer img {
+    padding-right: 2em;
+  }
+
 }
